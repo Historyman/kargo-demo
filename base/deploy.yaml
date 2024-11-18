@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: node
-        image: artifactory.ulinedm.com/docker/node
+        image: artifactory.ulinedm.com/docker/node:placholder
       volumes:
       - name: content
         configMap:
