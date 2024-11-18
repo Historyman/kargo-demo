@@ -13,8 +13,8 @@ spec:
         app: kargo-demo
     spec:
       containers:
-      - name: alpine
-        image: nginx
+      - name: node
+        image: artifactory.ulinedm.com/docker/node
       volumes:
       - name: content
         configMap:
