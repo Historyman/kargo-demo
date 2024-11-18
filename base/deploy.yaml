@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: alpine
-        image: alpine
+        image: nginx
       volumes:
       - name: content
         configMap:
